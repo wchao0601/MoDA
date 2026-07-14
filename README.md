@@ -8,8 +8,17 @@
 
 ## ✨ Overview
 
-<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/overall-network.png" width="99.5%"> </p>
-
+<p align="center"> <img src="https://github.com/wchao0601/MoDA/blob/main/overall-network.png" width="99.5%"> </p>
+<table>
+  <tr>
+    <td width="50%">
+      <img src="https://github.com/wchao0601/MoDA/blob/main/TLCE.png" width="100%">
+    </td>
+    <td width="50%">
+      <img src="https://github.com/wchao0601/MoDA/blob/main/MBIA.png" width="100%">
+    </td>
+  </tr>
+</table>
 
 
 ## 📄 Documentation
@@ -40,10 +49,7 @@ python test.py
 
 
 ## 📈 Results
-<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/results1.png" width="99.5%"> </p>
-<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/results2.png" width="99.5%"> </p>
-<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/vis-detection.png" width="99.5%"> </p>
-<p align="center"> <img src="https://github.com/wchao0601/MSOD-DGIoU/blob/main/vis-heatmap.png" width="99.5%"> </p>
+<p align="center"> <img src="https://github.com/wchao0601/MoDA/blob/main/detect-vis.png" width="99.5%"> </p>
 
 ## 🌐 Contact
 If you have any questions, please feel free to contact me via email at wchao0601@163.com
