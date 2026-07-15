@@ -1,10 +1,10 @@
 <div align="center">
 <!-- <h1> MoDA </h1> -->
-<h2> <a href="">MoDA: Unlocking Frozen Vision Foundation Models for Multimodal Fusion Object Detection in Remote Sensing</h2>
+<h2> <a href="">MoDA</h2>
 <h3> Chao Wang, Yanguang Sun, Zhenbo Yu, Jian Yang, Lei Luo*</h3>
 </div>
 
-#### This repository contains the official implementation of the paper: MoDA: Unlocking Frozen Vision Foundation Models for Multimodal Fusion Object Detection in Remote Sensing
+#### This repository contains the official implementation of the paper: MoDA
 
 ## ✨ Overview
 
