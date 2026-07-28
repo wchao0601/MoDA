@@ -3,6 +3,7 @@
 <h2> <a href="">MoDA</h2>
 </div>
 
+#### The specific code will be made public after the paper is accepted.
 #### This repository contains the official implementation of the paper: MoDA
 
 ## ✨ Overview
