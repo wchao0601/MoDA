@@ -55,9 +55,16 @@ python test.py
 If you have any questions, please feel free to contact me via email at wchao0601@163.com
 
 ## 📚 Citation
-If our work is helpful, you can cite our paper:
-```
+If this work is helpful for your research, please consider citing:
 
+```bibtex
+@inproceedings{wang2026m4,
+author={Wang, Chao and Lu, Wei and Li, Xiang and Yang, Jian and Luo, Lei},
+title={M4-SAR: A Multi-resolution, Multi-polarization, Multi-scene, Multi-source Dataset and Benchmark for Optical-SAR Object Detection},
+booktitle={Proc. Eur. Conf. Comput. Vis.},
+pages={538--556},
+year={2026}
+}
 ```
 ## 🙏 Acknowledgment
 - This repo is based on [Ultralytics](https://github.com/ultralytics/ultralytics), which is excellent works.
