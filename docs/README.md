@@ -3,7 +3,9 @@
 <h2> <a href="">MoDA: Unlocking Frozen Vision Foundation Models for Multimodal Fusion Object Detection in Remote Sensing</h2>
 </div>
 
-#### The specific code will be made public after the paper is accepted.
+## News
+- **2026.10.28** Our MoDA specific code has been officially launched. 🔥
+  
 #### This repository contains the official implementation of the paper: MoDA
 
 ## ✨ Overview
@@ -36,7 +38,10 @@ pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https
 pip install seaborn thop timm einops
 pip install -r requirements.txt
 ```
-
+### Model weights
+|Weight Link |Code|
+| :---: | :---: |
+|[Download](https://pan.baidu.com/s/1KjlbzaW_KcsyKyQ7ziUwDg?pwd=0601) |0601|
 ### Train
 ```python
 python train.py
@@ -57,14 +62,5 @@ If you have any questions, please feel free to contact me via email at wchao0601
 ## 📚 Citation
 If this work is helpful for your research, please consider citing:
 
-```bibtex
-@inproceedings{wang2026m4,
-author={Wang, Chao and Lu, Wei and Li, Xiang and Yang, Jian and Luo, Lei},
-title={M4-SAR: A Multi-resolution, Multi-polarization, Multi-scene, Multi-source Dataset and Benchmark for Optical-SAR Object Detection},
-booktitle={Proc. Eur. Conf. Comput. Vis.},
-pages={538--556},
-year={2026}
-}
-```
 ## 🙏 Acknowledgment
 - This repo is based on [Ultralytics](https://github.com/ultralytics/ultralytics), which is excellent works.
