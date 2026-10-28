@@ -12,7 +12,7 @@
 <table>
   <tr>
     <td width="50%">
-      <img src="https://github.com/wchao0601/MoDA/blob/main/TLCE.png" width="100%">
+      <img src="https://github.com/wchao0601/MoDA/blob/main/TACE.png" width="100%">
     </td>
     <td width="50%">
       <img src="https://github.com/wchao0601/MoDA/blob/main/MBIA.png" width="100%">
