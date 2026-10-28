@@ -1,0 +1,13 @@
+
+path: DATA/OGSOD-2.0/ # dataset root dir
+train: rgbs/images/train # train optical images
+val: rgbs/images/val # val optical images 
+test: rgbs/images/test # test optical images 
+train1: /opt/data/private/DATA/OGSOD-2.0/sars/images/train # train SAR images
+val1: /opt/data/private/DATA/OGSOD-2.0/sars/images/val # val SAR images
+test1: /opt/data/private/DATA/OGSOD-2.0/sars/images/test # test SAR images
+
+names:
+  0: bridge
+  1: harbor
+  2: oil_tank

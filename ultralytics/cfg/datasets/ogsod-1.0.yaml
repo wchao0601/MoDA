@@ -1,0 +1,15 @@
+
+path: DATA/OGSOD-1.0/ # dataset root dir
+train: rgb/images/train # train optical images
+val: rgb/images/test # val optical images
+test: rgb/images/test # test optical images
+train1: /opt/data/private/DATA/OGSOD-1.0/sar/images/train # train SAR images
+val1: /opt/data/private/DATA/OGSOD-1.0/sar/images/test # val SAR images
+test1: /opt/data/private/DATA/OGSOD-1.0/sar/images/test # test SAR images 
+
+# Classes for DOTA 1.5
+names:
+  0: bridge
+  1: harbor
+  2: oil_tank
+ 

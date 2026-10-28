@@ -1,0 +1,49 @@
+# yolov8-custom.yaml
+
+# Parameters
+nc: 80 # Number of classes for Pascal VOC
+
+# Model scaling parameters
+scales:
+  # [depth, width, max_channels]
+  n: [1, 1, 1024] # Adjusted to match backbone output
+
+ch: 6
+imgsz: 256
+# Backbone configuration
+backbone:
+  # [from, repeats, module, args]
+  - [-1, 1, Silence, []]                         # 0
+  - [0, 1, SilenceRGB, []]                       # 1 OPT images
+  - [0, 1, SilenceSAR, []]                          # 2 SAR images
+
+  - [[1, 2], 1, DINOv3MLAs, [384, 'small']] # 3
+  - [3, 1, GetDinoLayer, [384, 0]] # 4 p3 [1,384,32,32]
+  - [3, 1, GetDinoLayer, [384, 1]] # 5 p4 [1,384,16,16]
+  - [3, 1, GetDinoLayer, [384, 2]] # 6 p5 [1,384,8,8]
+  - [4, 1, FFM, [384]]            # 7 P3
+  - [5, 1, FFM, [384]]            # 8 P4
+  - [6, 1, FFM, [384]]            # 9 P5
+
+# Head configuration
+head:
+  # [from, repeats, module, args]
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]] # 10 [1,384,16,16]
+  - [[-1, 8], 1, Concat, [1]] # 11 cat backbone P4  [1,768,16,16]
+  - [-1, 1, C2f, [192]] # 12                [1,192,16,16]
+
+  - [-1, 1, nn.Upsample, [None, 2, "nearest"]] # 13 [1,192,32,32]
+  - [[-1, 7], 1, Concat, [1]] # 14 cat backbone P3  [1,576,32,32]
+  - [-1, 1, C2f, [96]] # 15 (P3/8-small)   [1,96,32,32]
+
+  - [-1, 1, Conv, [96, 3, 2]] # 16                 [1,96,16,16]                  
+  - [[-1, 12], 1, Concat, [1]] # 17 cat head P4     [1,288,16,16]
+  - [-1, 1, C2f, [192]] # 18 (P4/16-medium)[1,192,16,16]
+
+  - [-1, 1, Conv, [192, 3, 2]] # 19               [1,192,8,8]
+  - [[-1, 9], 1, Concat, [1]] # 20 cat head P5     [1,576,8,8]
+  - [-1, 1, C2f, [384]] # 21 (P5/32-large)  [1,384,8,8]
+
+  - [[15, 18, 21], 1, OBB, [nc, 1]]          #23 Detect (P3, P4, P5)
+
+

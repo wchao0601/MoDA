@@ -1,0 +1,18 @@
+
+path: DATA/M4-SAR/ # dataset root dir
+train: optical/images/train # train optical images
+val: optical/images/val # val optical images
+test: optical/images/test # test optical images
+train1: /opt/data/private/DATA/MSOD/MSOD/sar/images/train # train SAR images
+val1: /opt/data/private/DATA/MSOD/MSOD/sar/images/val # val SAR images
+test1: /opt/data/private/DATA/MSOD/MSOD/sar/images/test # test SAR images
+
+
+names:
+  0: bridge
+  1: harbor
+  2: oil_tank
+  3: playground
+  4: airport
+  5: wind_turbine
+  
