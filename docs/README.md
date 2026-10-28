@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ### Model weights
 |Weight Link |Code|
 | :---: | :---: |
-|[Download](https://pan.baidu.com/s/1KjlbzaW_KcsyKyQ7ziUwDg?pwd=0601) |0601|
+|[Download](https://pan.baidu.com/s/1G63DybXVP0n4-Wp0_MCcdQ) |0601|
 ### Train
 ```python
 python train.py
