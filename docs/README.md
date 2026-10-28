@@ -1,6 +1,6 @@
 <div align="center">
 <!-- <h1> MoDA: Unlocking Frozen Vision Foundation Models for Multimodal Fusion Object Detection in Remote Sensing </h1> -->
-<h2> <a href="">MoDA</h2>
+<h2> <a href="">MoDA: Unlocking Frozen Vision Foundation Models for Multimodal Fusion Object Detection in Remote Sensing</h2>
 </div>
 
 #### The specific code will be made public after the paper is accepted.
