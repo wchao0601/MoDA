@@ -4,7 +4,7 @@
 </div>
 
 ## News
-- **2026.10.28** Our MoDA specific code has been officially launched. 🔥
+- **2026.11.07** Congratulations! Our paper "MoDA: Unlocking Frozen Vision Foundation Models for Multimodal Fusion Object Detection in Remote Sensing" has been accepted by **ISPRS Journal of Photogrammetry and Remote Sensing 2026**. 🔥
   
 #### This repository contains the official implementation of the paper: MoDA
 
