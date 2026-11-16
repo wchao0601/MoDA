@@ -10,7 +10,7 @@
 
 ## ✨ Overview
 
-<p align="center"> <img src="https://github.com/wchao0601/MoDA/blob/main/overall-network.png" width="99.5%"> </p>
+<p align="center"> <img src="https://github.com/wchao0601/MoDA/blob/main/MoDA.png" width="99.5%"> </p>
 <table>
   <tr>
     <td width="50%">
